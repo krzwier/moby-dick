@@ -35,7 +35,6 @@ public class WordCounter {
     public WordCounter(String filename) {
         this.stopWordsLoaded = LoadStopWords("stop-words.txt");
         this.wordsLoaded = LoadWords(filename);
-        this.SortWords();
     }
 
     /**
@@ -78,11 +77,15 @@ public class WordCounter {
                 }
                 // make sure empty string is in stop word list
                 stopWords.add("");
+                // also add single quote to stop word list, because it's not a word and
+                // single quote sometimes gets picked up alone when used right after punctuation
+                stopWords.add("’");
             }
             br.close();
             success = true;
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Error loading stop word file. Please make sure that stop-words.txt " +
+                    "is located in the current directory.");
         }
         return success;
     }
@@ -100,7 +103,10 @@ public class WordCounter {
         try {
             BufferedReader br = new BufferedReader(new FileReader(filename));
             while ((line = br.readLine()) != null) {
-                String[] words = line.split("\\W+");
+                // if regex "\\W+" is used here, apostrophes and hyphens will be
+                // considered delimiters.  I've opted instead to include hyphens and apostrophes
+                // as word characters.
+                String[] words = line.split("[^a-zA-Z’-]+");
                 for (String s : words) {
                     String lowercaseWord = s.toLowerCase();
                     if (!stopWords.contains(lowercaseWord) &&
@@ -112,7 +118,7 @@ public class WordCounter {
             br.close();
             success = true;
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
         return success;
     }
@@ -135,6 +141,22 @@ public class WordCounter {
         }
     }
 
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
+        System.out.println("Welcome to the Word Counter program. " +
+                "This program will output the most frequent words in any text file, " +
+                "excluding some commonly used words. " +
+                "Please enter the name of a text file.");
+
+        String filename = sc.next();
+
+        WordCounter wordCounter = new WordCounter(filename);
+        wordCounter.SortWords();
+
+        sc.close();
+
+
+    }
 
 }
