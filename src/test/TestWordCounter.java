@@ -31,5 +31,29 @@ public class TestWordCounter {
         assertEquals(wordMap, wordCounter.getWordMap());
     }
 
+    @Test
+    void test_wordlistfortwolinetextfile(){
+        WordCounter wordCounter = new WordCounter("two-line-text.txt");
+        HashMap<String,Integer> wordMap = new HashMap<>();
+        wordMap.put("this", 2);
+        wordMap.put("is", 2);
+        wordMap.put("a", 2);
+        wordMap.put("dummy", 1);
+        wordMap.put("file", 1);
+        wordMap.put("for", 1);
+        wordMap.put("test", 1);
+        wordMap.put("purposes", 1);
+        wordMap.put("but", 1);
+        wordMap.put("surprise", 1);
+        wordMap.put("there", 1);
+        wordMap.put("second", 1);
+        wordMap.put("line", 1);
+        wordMap.put("time", 1);
+
+        assertEquals(wordMap, wordCounter.getWordMap());
+
+
+    }
+
 
 }

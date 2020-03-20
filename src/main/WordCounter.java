@@ -17,16 +17,19 @@ public class WordCounter {
         this.wordsLoaded = LoadWords(filename);
     }
 
-    // GETTERS
-
+    /**
+     * @return boolean variable indicating if words have been loaded
+     */
     public boolean getWordsLoaded(){
         return this.wordsLoaded;
     }
 
+    /**
+     * @return WordMap with all words and counts
+     */
     public HashMap<String, Integer> getWordMap() {
         return this.wordMap;
     }
-
 
 
     /**
@@ -42,7 +45,7 @@ public class WordCounter {
         try {
             BufferedReader br = new BufferedReader(new FileReader(filename));
             while ((line = br.readLine()) != null) {
-                String[] words = line.split("\\W");
+                String[] words = line.split("\\W+");
                 for (String s : words) {
                     String lowercaseWord = s.toLowerCase();
                     if (wordMap.putIfAbsent(lowercaseWord,1) != null){
