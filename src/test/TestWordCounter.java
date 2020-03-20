@@ -56,5 +56,11 @@ public class TestWordCounter {
 
     }
 
+    @Test
+    void test_loadmobydick(){
+        WordCounter wordCounter = new WordCounter("mobydick.txt");
+        assertTrue(wordCounter.getStopWordsLoaded());
+        assertTrue(wordCounter.getWordsLoaded());
+    }
 
 }

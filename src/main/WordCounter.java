@@ -1,9 +1,21 @@
 package main;
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
+import java.util.*;
+import java.util.Map.Entry;
+
+
+class Sorter implements Comparator<Entry<String,Integer>> {
+    // complete this method
+    public int compare(Entry<String, Integer> word1, Entry<String,Integer> word2) {
+        if (!word1.getValue().equals(word2.getValue())) {
+            return word2.getValue() - word1.getValue();
+        } else {
+            return (word1.getKey()).compareTo(word2.getKey());
+        }
+    }
+}
+
 
 public class WordCounter {
 
@@ -11,6 +23,7 @@ public class WordCounter {
     private boolean stopWordsLoaded;
     private HashSet<String> stopWords = new HashSet<>();
     private HashMap<String, Integer> wordMap = new HashMap<>();
+    private ArrayList<Entry<String, Integer>> wordFreq = new ArrayList<>();
 
     /**
      * Creates a new WordCounter object by loading stop words and
@@ -22,6 +35,7 @@ public class WordCounter {
     public WordCounter(String filename) {
         this.stopWordsLoaded = LoadStopWords("stop-words.txt");
         this.wordsLoaded = LoadWords(filename);
+        this.SortWords();
     }
 
     /**
@@ -62,6 +76,8 @@ public class WordCounter {
                 if (!lowercaseWord.isEmpty() && (lowercaseWord.charAt(0) != '#')){
                     stopWords.add(lowercaseWord);
                 }
+                // make sure empty string is in stop word list
+                stopWords.add("");
             }
             br.close();
             success = true;
@@ -100,6 +116,25 @@ public class WordCounter {
         }
         return success;
     }
+
+    /**
+     * Converts wordMap into ArrayList of word-frequency entries,
+     * then sorts that list so most frequent words are listed first
+     */
+    private void SortWords(){
+        Set<Entry<String,Integer>> entries = this.getWordMap().entrySet();
+        wordFreq = new ArrayList<>(entries);
+        Sorter sorter = new Sorter();
+        wordFreq.sort(sorter);
+        for (int i = 0; i < 100; i++) {
+            if (i >= wordFreq.size()){
+                break;
+            } else {
+                System.out.println(wordFreq.get(i));
+            }
+        }
+    }
+
 
 
 }
