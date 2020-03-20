@@ -2,21 +2,41 @@ package main;
 
 import java.io.*;
 import java.util.HashMap;
-import java.util.HashMap;
 
 public class WordCounter {
 
+    private boolean wordsLoaded;
     private HashMap<String, Integer> wordMap = new HashMap<>();
+
+    /**
+     * Creates a new WordCounter object by loading words from given file.
+     *
+     * @param   filename    name of file to load
+     */
+    public WordCounter(String filename) {
+        this.wordsLoaded = LoadWords(filename);
+    }
+
+    // GETTERS
+
+    public boolean getWordsLoaded(){
+        return this.wordsLoaded;
+    }
 
     public HashMap<String, Integer> getWordMap() {
         return this.wordMap;
     }
 
+
+
     /**
+     * Opens file and reads line by line, separating each line in to words.
+     * Stores words in wordMap with word counts.
+     *
      * @param   filename    name of file to read
      * @return              boolean indicating success
      */
-    public boolean LoadWords(String filename) {
+    private boolean LoadWords(String filename) {
         boolean success = false;
         String line;
         try {

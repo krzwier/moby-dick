@@ -11,15 +11,13 @@ public class TestWordCounter {
 
     @Test
     void test_loadwordsforonelinetextfile(){
-        WordCounter wordCounter = new WordCounter();
-        assertTrue(wordCounter.LoadWords("short-text.txt"));
+        WordCounter wordCounter = new WordCounter("short-text.txt");
+        assertTrue(wordCounter.getWordsLoaded());
     }
-
 
     @Test
     void test_wordlistforonelinetextfile(){
-        WordCounter wordCounter = new WordCounter();
-        wordCounter.LoadWords("short-text.txt");
+        WordCounter wordCounter = new WordCounter("short-text.txt");
         HashMap<String,Integer> wordMap = new HashMap<>();
         wordMap.put("this", 1);
         wordMap.put("is", 1);
