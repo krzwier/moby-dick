@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5d0c93d-b8cd-40c2-9995-1f14f1d08aa8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dracula.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pile-of-words.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prideandprejudice.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/AppJavaFx/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wordcounter/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wordcounter/WordCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/App.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/AppJavaFx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +60,22 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GUI.App" />
+      <module name="moby-dick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.Main" />
       <module name="moby-dick" />
       <extension name="coverage">
         <pattern>
@@ -126,9 +137,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestWordCounter" />
-        <item itemvalue="Application.WordCounter (1)" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.WordCounter" />
       </list>
@@ -335,22 +346,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="406" y="56" width="752" height="792" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584812838957" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1584827335382">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1584834274880">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584827335382" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1584827335381">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584834274880" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1584834274878">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584827335381" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1584827335378">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584834274878" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1584834274877">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584827335378" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1584827335381">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584834274877" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1584834274879">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584827335381" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584834274879" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1584728147913">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -371,10 +382,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="258" y="112" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1584808222637" />
-    <state x="512" y="168" key="RollbackChangesDialog" timestamp="1584749872228">
+    <state x="512" y="168" key="RollbackChangesDialog" timestamp="1584831975106">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="512" y="168" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1584749872228" />
+    <state x="512" y="168" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1584831975106" />
     <state x="221" y="63" key="SettingsEditor" timestamp="1584812753197">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
