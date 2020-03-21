@@ -1,8 +1,9 @@
+package wordcounter;
+
 import tech.tablesaw.api.IntColumn;
 import tech.tablesaw.api.StringColumn;
 import tech.tablesaw.api.Table;
 import tech.tablesaw.plotly.Plot;
-import tech.tablesaw.plotly.api.Histogram;
 import tech.tablesaw.plotly.components.Axis;
 import tech.tablesaw.plotly.components.Figure;
 import tech.tablesaw.plotly.components.Layout;
@@ -20,9 +21,10 @@ public class WordCounter {
     private boolean stopWordsLoaded;
     private HashSet<String> stopWords = new HashSet<>();
     private HashMap<String, Integer> wordMap = new HashMap<>();
+    private ArrayList<Entry<String, Integer>> wordFreq;
 
     /**
-     * Creates a new WordCounter object by loading stop words and
+     * Creates a new wordcounter.WordCounter object by loading stop words and
      * words from given file. Sets boolean fields to indicate success
      * of load methods.
      *
@@ -31,6 +33,7 @@ public class WordCounter {
     public WordCounter(String filename) {
         this.stopWordsLoaded = LoadStopWords("stop-words.txt");
         this.wordsLoaded = LoadWords(filename);
+        this.SortWords();
     }
 
     /**
@@ -52,6 +55,13 @@ public class WordCounter {
      */
     public HashMap<String, Integer> getWordMap() {
         return this.wordMap;
+    }
+
+    /**
+     * @return ArrayList of word-frequency entries
+     */
+    public ArrayList<Entry<String, Integer>> getWordList() {
+        return this.wordFreq;
     }
 
     /**
@@ -101,7 +111,9 @@ public class WordCounter {
             while ((line = br.readLine()) != null) {
                 // if regex "\\W+" is used here, apostrophes and hyphens will be
                 // considered delimiters.  I've opted instead to include hyphens and apostrophes
-                // as word characters.
+                // as word characters.  This means that "carpet" and "carpet-bag" are counted
+                // as separate words.  It also means that "whale" and "whale's" are counted as
+                // separate words.
                 String[] words = line.split("[^a-zA-Z’-]+");
                 for (String s : words) {
                     String lowercaseWord = s.toLowerCase();
@@ -125,12 +137,11 @@ public class WordCounter {
      *
      * @return              ArrayList of String-Int Entries
      */
-    private ArrayList<Entry<String, Integer>> SortWords(){
+    private void SortWords(){
         Set<Entry<String,Integer>> entries = this.getWordMap().entrySet();
-        ArrayList<Entry<String, Integer>> wordFreq = new ArrayList<>(entries);
+        wordFreq = new ArrayList<>(entries);
         Sorter sorter = new Sorter();
         wordFreq.sort(sorter);
-        return wordFreq;
     }
 
     public static void main(String[] args) {
@@ -145,8 +156,9 @@ public class WordCounter {
 
 
         WordCounter wordCounter = new WordCounter(filename);
-        ArrayList<Entry<String, Integer>> wordFreq = wordCounter.SortWords();
+        wordCounter.SortWords();
 
+        /*
         String[] words = new String[100];
         int[] frequencies = new int[100];
         for (int i = 0; i < 100; i++) {
@@ -184,6 +196,8 @@ public class WordCounter {
 
         Plot.show(fig);
 
+
+         */
         sc.close();
 
 
