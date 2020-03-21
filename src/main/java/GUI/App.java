@@ -3,11 +3,9 @@ package GUI;
 import wordcounter.*;
 
 import javax.swing.*;
-import javax.swing.text.html.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.ComponentListener;
 import java.util.ArrayList;
 import java.util.Map;
 

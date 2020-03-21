@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5d0c93d-b8cd-40c2-9995-1f14f1d08aa8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dracula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pile-of-words.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prideandprejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/AppJavaFx/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wordcounter/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wordcounter/WordCounter.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZMyKFZXBNanAPK7IUWUV0C9ria" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.App" />
+      <module name="moby-dick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.AppJavaFx.Main" />
+      <module name="moby-dick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.AppJavaFx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.WordCounter" />
+      <module name="moby-dick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wordcounter.WordCounter" />
+      <module name="moby-dick" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWordCounter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="moby-dick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWordCounter" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestWordCounter" />
+        <item itemvalue="Application.WordCounter (1)" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.WordCounter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5d0c93d-b8cd-40c2-9995-1f14f1d08aa8" name="Default Changelist" comment="" />
+      <created>1584663191452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584663191452</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Create project structure with main package and test package.  Main and test classes empty.">
+      <created>1584663567900</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584663567900</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add .gitignore file ignoring all IDE setting files.">
+      <created>1584663948611</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584663948611</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add short-text.txt as test file. New test case for opening and reading short-text.txt. Test passes.">
+      <created>1584669569905</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584669569905</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add test case for checking word list of input file short-text.txt. Test passes.">
+      <created>1584671309166</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584671309166</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Change access modifier for LoadWords to private.  Add boolean variable to record if words have been loaded, along with getter method.">
+      <created>1584671895738</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584671895738</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add test case for two-line text file that has multiple occurrences of same word and new punctuation.  Test passes.">
+      <created>1584672832894</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584672832894</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add production directory.">
+      <created>1584672946838</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584672946838</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add method to load stop words.  Change LoadWords method to check against stop words.  Adjust test cases so that they don't include stop words.  All test cases pass.">
+      <created>1584676650960</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584676650960</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add SortWords method, which converts HashMap of word frequencies into ArrayList and then sorts.  SortWords is called by constructor and prints list of top 100 words to console.">
+      <created>1584715479689</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584715479690</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add main method for command-line interface. Tweak regex so that apostrophes and hyphens are included as word characters.">
+      <created>1584722109658</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584722109658</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add maven dependency and adjust directory structure accordingly.">
+      <created>1584747548868</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584747548868</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Separate Sorter class into its own file and add TableSaw dependency for creating plots.">
+      <created>1584750103385</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1584750103385</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Separate Sorter class into its own file and add TableSaw dependency for creating plots.">
+      <created>1584750221719</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584750221719</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Change passing of wordFreq variable. Add histogram visualization to main function.">
+      <created>1584760651203</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1584760651203</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add shell of GUI form with welcome message and file chooser.">
+      <created>1584808105442</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584808105442</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add JEditorPane to view histogram.  Does not render properly because application is built in swing and histogram uses javascript.">
+      <created>1584812839258</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1584812839258</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Create project structure with main package and test package.  Main and test classes empty." />
+    <MESSAGE value="Add .gitignore file ignoring all IDE setting files." />
+    <MESSAGE value="Add short-text.txt as test file.  New test case for opening and reading short-text.txt." />
+    <MESSAGE value="Add short-text.txt as test file. New test case for opening and reading short-text.txt. Test passes." />
+    <MESSAGE value="Add test case for checking word list of input file short-text.txt. Test passes." />
+    <MESSAGE value="Change access modifier for LoadWords to private.  Add boolean variable to record if words have been loaded, along with getter method." />
+    <MESSAGE value="Add test case for two-line text file that has multiple occurrences of same word and new punctuation.  Test passes." />
+    <MESSAGE value="Add production directory." />
+    <MESSAGE value="Add method to load stop words.  Change LoadWords method to check against stop words.  Adjust test cases so that they don't include stop words.  All test cases pass." />
+    <MESSAGE value="Add SortWords method, which converts HashMap of word frequencies into ArrayList and then sorts.  SortWords is called by constructor and prints list of top 100 words to console." />
+    <MESSAGE value="Add main method for command-line interface. Tweak regex so that apostrophes and hyphens are included as word characters." />
+    <MESSAGE value="Add maven dependency and adjust directory structure accordingly." />
+    <MESSAGE value="Separate Sorter class into its own file and add TableSaw dependency for creating plots." />
+    <MESSAGE value="Change passing of wordFreq variable. Add histogram visualization to main function." />
+    <MESSAGE value="Add shell of GUI form with welcome message and file chooser." />
+    <MESSAGE value="Add JEditorPane to view histogram.  Does not render properly because application is built in swing and histogram uses javascript." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add JEditorPane to view histogram.  Does not render properly because application is built in swing and histogram uses javascript." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Project_Structure" timestamp="1584757796661">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1584757796661" />
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1584813178149">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1584813178149" />
+    <state x="443" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1584746298135">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="443" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.900@0.0.1440.900" timestamp="1584746298135" />
+    <state x="486" y="316" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584747019627">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="486" y="316" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1584747019627" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584803347602">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1584803347602" />
+    <state x="605" y="344" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff" timestamp="1584803479807">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="605" y="344" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/0.0.1440.900@0.0.1440.900" timestamp="1584803479807" />
+    <state x="406" y="56" width="752" height="792" key="CommitChangelistDialog2" timestamp="1584812838957">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="406" y="56" width="752" height="792" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584812838957" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1584827335382">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584827335382" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1584827335381">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584827335381" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1584827335378">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584827335378" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1584827335381">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584827335381" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1584728147913">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584728147913" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1584728147912">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1584728147912" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1584728147912">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1584728147912" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1584728147913">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1584728147913" />
+    <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1584808222637">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="258" y="112" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1584808222637" />
+    <state x="512" y="168" key="RollbackChangesDialog" timestamp="1584749872228">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="512" y="168" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1584749872228" />
+    <state x="221" y="63" key="SettingsEditor" timestamp="1584812753197">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1584812753197" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584760664128">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584760664128" />
+    <state x="424" y="351" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584664183096">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="424" y="351" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.900@0.0.1440.900" timestamp="1584664183096" />
+    <state x="476" y="338" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1584816530600">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="476" y="338" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.1440.900@0.0.1440.900" timestamp="1584816530600" />
+    <state x="97" y="72" key="new project wizard" timestamp="1584800870982">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="97" y="72" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1584800870982" />
+  </component>
+</project>

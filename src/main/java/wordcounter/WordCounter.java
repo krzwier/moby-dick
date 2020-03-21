@@ -86,6 +86,11 @@ public class WordCounter {
                 // also add single quote to stop word list, because it's not a word and
                 // single quote sometimes gets picked up alone when used right after punctuation
                 stopWords.add("’");
+                // also add single and double dash to stop word list, because it sometimes gets picked up
+                // when used in between spaces
+                stopWords.add("-");
+                stopWords.add("--");
+
             }
             br.close();
             success = true;
@@ -154,13 +159,12 @@ public class WordCounter {
 
         String filename = sc.next();
 
-
         WordCounter wordCounter = new WordCounter(filename);
-        wordCounter.SortWords();
+        ArrayList<Entry<String, Integer>> wordFreq = wordCounter.getWordList();
 
-        /*
         String[] words = new String[100];
         int[] frequencies = new int[100];
+
         for (int i = 0; i < 100; i++) {
             if (i >= wordFreq.size()){
                 break;
@@ -196,10 +200,9 @@ public class WordCounter {
 
         Plot.show(fig);
 
+        System.out.println("Histogram displayed in browser.");
 
-         */
         sc.close();
-
 
     }
 
