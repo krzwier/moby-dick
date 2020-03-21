@@ -1,3 +1,14 @@
+import tech.tablesaw.api.IntColumn;
+import tech.tablesaw.api.StringColumn;
+import tech.tablesaw.api.Table;
+import tech.tablesaw.plotly.Plot;
+import tech.tablesaw.plotly.api.Histogram;
+import tech.tablesaw.plotly.components.Axis;
+import tech.tablesaw.plotly.components.Figure;
+import tech.tablesaw.plotly.components.Layout;
+import tech.tablesaw.plotly.components.TickSettings;
+import tech.tablesaw.plotly.traces.BarTrace;
+
 import java.io.*;
 import java.util.*;
 import java.util.Map.Entry;
@@ -9,7 +20,6 @@ public class WordCounter {
     private boolean stopWordsLoaded;
     private HashSet<String> stopWords = new HashSet<>();
     private HashMap<String, Integer> wordMap = new HashMap<>();
-    private ArrayList<Entry<String, Integer>> wordFreq = new ArrayList<>();
 
     /**
      * Creates a new WordCounter object by loading stop words and
@@ -112,33 +122,67 @@ public class WordCounter {
     /**
      * Converts wordMap into ArrayList of word-frequency entries,
      * then sorts that list so most frequent words are listed first
+     *
+     * @return              ArrayList of String-Int Entries
      */
-    private void SortWords(){
+    private ArrayList<Entry<String, Integer>> SortWords(){
         Set<Entry<String,Integer>> entries = this.getWordMap().entrySet();
-        wordFreq = new ArrayList<>(entries);
+        ArrayList<Entry<String, Integer>> wordFreq = new ArrayList<>(entries);
         Sorter sorter = new Sorter();
         wordFreq.sort(sorter);
-        for (int i = 0; i < 100; i++) {
-            if (i >= wordFreq.size()){
-                break;
-            } else {
-                System.out.println(wordFreq.get(i));
-            }
-        }
+        return wordFreq;
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Welcome to the Word Counter program. " +
-                "This program will output the most frequent words in any text file, " +
-                "excluding some commonly used words. " +
+                "This program will generate a histogram of the 100 most frequent words " +
+                "in any text file, excluding some commonly used words. " +
                 "Please enter the name of a text file.");
 
         String filename = sc.next();
 
+
         WordCounter wordCounter = new WordCounter(filename);
-        wordCounter.SortWords();
+        ArrayList<Entry<String, Integer>> wordFreq = wordCounter.SortWords();
+
+        String[] words = new String[100];
+        int[] frequencies = new int[100];
+        for (int i = 0; i < 100; i++) {
+            if (i >= wordFreq.size()){
+                break;
+            } else {
+                words[i] = (wordFreq.get(i)).getKey();
+                frequencies[i] = (wordFreq.get(i)).getValue();
+            }
+        }
+
+        Table wordFrequencies = Table.create("Word Frequencies").addColumns(
+                                StringColumn.create("Word", words),
+                                IntColumn.create("Frequency", frequencies));
+
+        Axis.AxisBuilder xAxisBuilder = Axis.builder();
+        TickSettings.TickSettingsBuilder ticks = TickSettings.builder();
+        ticks.showTickLabels(true).build();
+        TickSettings tickSettings = ticks.build();
+        xAxisBuilder.tickSettings(tickSettings);
+        Axis xAxis = xAxisBuilder.build();
+        Axis.AxisBuilder yAxisBuilder = Axis.builder();
+        yAxisBuilder.title("Number of Occurrences");
+        Axis yAxis = yAxisBuilder.build();
+        Layout.LayoutBuilder builder = Layout.builder();
+        builder.title("100 Most Frequent Words in " + filename);
+        builder.hoverMode(Layout.HoverMode.CLOSEST);
+        builder.xAxis(xAxis);
+        builder.yAxis(yAxis);
+        builder.autosize(true);
+        Layout layout = builder.build();
+        BarTrace trace = BarTrace.builder(wordFrequencies.categoricalColumn("Word"),
+                wordFrequencies.numberColumn("Frequency")).build();
+        Figure fig = new Figure(layout, trace);
+
+        Plot.show(fig);
 
         sc.close();
 
