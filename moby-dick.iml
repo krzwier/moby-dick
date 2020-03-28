@@ -47,16 +47,24 @@
     <orderEntry type="library" name="Maven: com.univocity:univocity-parsers:2.8.4" level="project" />
     <orderEntry type="library" name="Maven: com.ibm.icu:icu4j:65.1" level="project" />
     <orderEntry type="library" name="Maven: io.github.classgraph:classgraph:4.8.60" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:2.0.0-alpha1" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:2.0.0-alpha1" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.30" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.13.1" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.13.1" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:13" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:mac:13" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:13" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:mac:13" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:13" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:mac:13" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:15-ea+2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:mac:15-ea+2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:15-ea+2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:win:15-ea+2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:15-ea+2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:mac:15-ea+2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:linux:15-ea+2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:mac:15-ea+2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-web:15-ea+2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-web:mac:15-ea+2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-media:15-ea+2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-media:mac:15-ea+2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-commons:1.6.0" level="project" />
   </component>
 </module>

@@ -2,11 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5d0c93d-b8cd-40c2-9995-1f14f1d08aa8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/moby_dick_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_2_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_icu_icu4j_65_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_univocity_univocity_parsers_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_pebbletemplates_pebble_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_unimi_dsi_fastutil_8_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_15_ea_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_15_ea_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_15_ea_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_15_ea_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_15_ea_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_linux_15_ea_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_15_ea_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_15_ea_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_15_ea_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_mac_15_ea_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_15_ea_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_mac_15_ea_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_roaringbitmap_RoaringBitmap_0_8_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_roaringbitmap_shims_0_8_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tech_tablesaw_tablesaw_core_0_37_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tech_tablesaw_tablesaw_jsplot_0_37_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/Wrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/App.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/AppJavaFx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moby-dick.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moby-dick.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +61,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,6 +83,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -60,7 +100,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Wrapper">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GUI.App" />
       <module name="moby-dick" />
@@ -101,21 +141,21 @@
       </method>
     </configuration>
     <configuration name="WordCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.WordCounter" />
+      <option name="MAIN_CLASS_NAME" value="wordcounter.WordCounter" />
       <module name="moby-dick" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wordcounter.WordCounter" />
+    <configuration name="Wrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.Wrapper" />
       <module name="moby-dick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Wrapper" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestWordCounter" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.WordCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584812839258</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Final cleanup.  Add readme.md.">
+      <created>1584834317193</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1584834317193</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,7 +362,8 @@
     <MESSAGE value="Change passing of wordFreq variable. Add histogram visualization to main function." />
     <MESSAGE value="Add shell of GUI form with welcome message and file chooser." />
     <MESSAGE value="Add JEditorPane to view histogram.  Does not render properly because application is built in swing and histogram uses javascript." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add JEditorPane to view histogram.  Does not render properly because application is built in swing and histogram uses javascript." />
+    <MESSAGE value="Final cleanup.  Add readme.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Final cleanup.  Add readme.md." />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Project_Structure" timestamp="1584757796661">
@@ -342,26 +390,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="605" y="344" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/0.0.1440.900@0.0.1440.900" timestamp="1584803479807" />
-    <state x="406" y="56" width="752" height="792" key="CommitChangelistDialog2" timestamp="1584812838957">
+    <state x="406" y="56" width="752" height="792" key="CommitChangelistDialog2" timestamp="1584834316900">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="406" y="56" width="752" height="792" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584812838957" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1584834274880">
+    <state x="406" y="56" width="752" height="792" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584834316900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1585432095160">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584834274880" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1584834274878">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585432095160" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1585432095159">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584834274878" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1584834274877">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585432095159" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1585432095151">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584834274877" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1584834274879">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585432095151" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1585432095160">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584834274879" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585432095160" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1584728147913">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -390,10 +438,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1584812753197" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584760664128">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584834332031">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584760664128" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584834332031" />
     <state x="424" y="351" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584664183096">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
