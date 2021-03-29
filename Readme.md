@@ -4,8 +4,6 @@ The goal of this project is to find and count the top 100 most frequently occurr
 words in Moby Dick.  I broadened the scope of the project by allowing the user to input
 any text file and adding a simple GUI that displays the top 100 words in a histogram.  
 
-This is a 48-hour project interview for Source Allies, Inc.
-
 ## Notes
 
 My word count numbers for Moby Dick are lower than many others that I found from searching the web.  
