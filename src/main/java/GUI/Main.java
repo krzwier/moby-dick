@@ -50,7 +50,7 @@ public class Main extends Application {
         topGrid.setMinSize(1280,300);
         topGrid.setStyle("-fx-background-color: #FFFFFF");
 
-        Image image = new Image("File:pile-of-words.jpg");
+        Image image = new Image("/pile-of-words.jpg");
         ImageView imageView = new ImageView(image);
         imageView.setPreserveRatio(true);
         imageView.setFitWidth(400);
