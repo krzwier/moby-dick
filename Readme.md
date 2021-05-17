@@ -1,8 +1,12 @@
 # Word Counter Application
 
-The goal of this project is to find and count the top 100 most frequently occurring 
+The original goal of this project was to find and count the top 100 most frequently occurring 
 words in Moby Dick.  I broadened the scope of the project by allowing the user to input
 any text file and adding a simple GUI that displays the top 100 words in a histogram.  
+
+## Demo
+![demo](https://user-images.githubusercontent.com/21344516/118546703-ef338e00-b71d-11eb-9d7d-7e0a65bf612c.gif)
+
 
 ## Notes
 
@@ -10,11 +14,6 @@ My word count numbers for Moby Dick are lower than many others that I found from
 This is because I made the choice to include the hyphen ('-') and apostrophe ('’') characters 
 as word characters.  This means that "whale" and "whale's" are counted separately, as are "carpet"
 and "carpet-bag".  
-
-I built this project using IntelliJ IDEA CE.  I used the Maven and JavaFX frameworks, both of 
-which are new to me.  (I fear that I don't have a firm grasp of the Maven directory structure
-conventions, so files may not be located in their conventional places.)  I also used 
-Tablesaw's Java wrappers for plotly.  
  
 ## Executables
 
